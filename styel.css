@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    display: flex;
+    
+}
+.content div{
+    padding: 30px;
+}
+.content a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(61, 99, 170);
+    font-size: large;
+
+}
+h1{
+    margin-top: 20px;
+}
+.nav{
+    background-image:linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+div button{
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(247, 241, 239, 0.862);
+}
